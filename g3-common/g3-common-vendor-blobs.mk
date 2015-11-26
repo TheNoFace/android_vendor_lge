@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/acdbdata/g3/Headset_cal.acdb:system/etc/acdbdata/g3/Headset_cal.acdb \
     vendor/lge/g3-common/proprietary/etc/acdbdata/g3/Speaker_cal.acdb:system/etc/acdbdata/g3/Speaker_cal.acdb \
     vendor/lge/g3-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/g3-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/lge/g3-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
@@ -183,9 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/lge/g3-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/g3-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
